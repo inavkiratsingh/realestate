@@ -1,10 +1,79 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-html, body{
-height: 100%;
-width: 100%;
-background-color: red;
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.navbar {
+    /* height: 100px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: aliceblue; */
+    padding: 1.5vw 4vw;
+}
+
+.logo {
+    height: 4vw;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 3.5vw;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.search {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='12' ry='12' stroke='%23333' stroke-width='3' stroke-dasharray='2%2c 9' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 12px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.notification {
+    background-color: rgba(130, 130, 130, 0.2);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification i {
+    font-size: 1.5vw;
+}
+
+.btn {
+    background: #2289ff;
+    color: #fff !important;
+    border-radius: 10px;
+    padding: 12px 40px;
 }
