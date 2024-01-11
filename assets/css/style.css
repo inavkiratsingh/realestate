@@ -77,3 +77,132 @@ body {
     border-radius: 10px;
     padding: 12px 40px;
 }
+
+
+
+.home-page{
+    /* background-color: antiquewhite; */
+    height: 90vh;
+    width: 96vw;
+    position: relative;
+}
+
+.home-page .img-back{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 75vw;
+    right: 0;
+}
+
+.home-page .img-back img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3vw;
+}
+
+.home-page .front{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 66;
+    padding-top: 7vw;
+}
+
+.home-page .home-left-1{
+    width: 40vw;
+    height: 20vw;
+    background-color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left: 4vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+}
+
+.home-page .home-left-1 h1{
+    font-family: 'Playfair Display', serif;
+    color: #14395B;
+    font-size: 4.5vw;
+    line-height: 5.8vw;
+}
+
+.home-page .home-left-1 h1 span{
+    color: #2289ff;
+}
+
+.home-page .home-left-1 p{
+    font-family: 'poppins';
+    font-weight: 700;
+    margin: 25px 0;
+    font-style: bold;
+}
+
+.home-page .home-opt{
+    width: 21vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-page .home-opt a{
+    text-decoration: none;
+    color: #14395B;
+    font-size: 1.3vw;
+    font-family: 'poppins';
+    font-weight: 700;
+    padding: 5px 25px;
+    border-radius: 20px;
+    transition: linear .2s;
+}
+
+.home-page .home-opt a:hover{
+    background: #2289ff;
+    color: #fff;
+}
+
+.home-page .avail{
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    background-color: #fff;
+    padding: 25px 10px;
+    font-family: 'poppins';
+    padding-left: 40px;
+    width: 80%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+}
+
+.home-page .avail span{
+    font-size: 1.2vw;
+    color: rgba(0, 0, 0, .4);
+}
+
+.home-page .avail h4{
+    font-size: 1.6vw;
+    color: #186aa5;
+    font-weight: 600;
+}
+
+.home-page .avail .clicks{
+    display: flex;
+    align-items: center;
+    gap: 1.2vw;
+}
+
+.home-page .avail .clicks .adv{
+    color: #186aa5;
+}
+
+.home-page .avail .clicks a{
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+padding: 15px 40px;
+}
