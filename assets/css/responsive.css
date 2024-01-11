@@ -1,0 +1,137 @@
+@media (max-width: 1300px) {
+
+    .home-page .avail{
+        width: 90%;
+    }
+
+    
+}
+
+@media (max-width: 1300px) {
+    .home-page .home-left-1{
+        width: 50vw;
+        height: 25vw;
+        padding-left: 4vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .1);
+    }
+
+    .home-page .avail{
+        width: 100%;
+        box-shadow: none;
+    }
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    .home-page{
+        width: 96vw;
+        margin: auto;
+    }
+    .home-page .img-back{
+        position: absolute;
+        width: 100%;
+    }
+
+    .home-page .home-left-1{
+        width: 50vw;
+        margin: auto;
+        border-radius: 25px;
+        padding-left: 0vw;
+        align-items: center;
+        padding-top: 2vw;
+        text-align: center;
+        height: auto;
+    }
+
+    .home-page .home-opt{
+        width: 30vw;
+        margin: auto;
+    }
+
+    .home-page .front{
+        height: 100%;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .home-page .home-opt a{
+        background-color: #fff;
+    }
+
+    .home-page .avail{
+        width: 100%;
+        box-shadow: none;
+        border-radius: 15px;
+    }
+}
+
+
+
+@media (max-width: 600px){
+    .navbar nav{
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+        /* background: aliceblue; */
+        padding: 4vw;
+    }
+
+    .logo {
+        height: 10vw;
+    }
+    
+    .home-page .img-back{
+        position: relative;
+        width: 90vw;
+        margin: auto;
+        height: 30vh;
+        right: 0;
+    }
+
+    .home-page .front{
+        padding: 0vw;
+        padding-top: 20px;
+    }
+
+    .home-page .home-left-1{
+        width: 90vw;
+        height: auto;
+        /* background-color: #f111ff; */
+        border-radius: 5px;
+        padding-left: 0vw;
+        box-shadow: none;
+        order: 1;
+    }
+
+    .home-page .home-left-1 h1{
+        font-size: 14vw;
+        line-height: 15vw;
+    }
+
+    .home-page .home-left-1 p{
+        font-size: 4vw;
+    }
+
+    .home-page .home-opt{
+        width: 90vw;
+    height: 50px;
+    margin: auto;
+    }
+
+    .home-page .home-opt a{
+        font-size: 4vw;
+    }
+
+    .home-page .avail{
+        display: none;
+    }
+}
