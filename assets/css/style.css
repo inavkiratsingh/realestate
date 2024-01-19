@@ -128,7 +128,7 @@ body {
     color: #14395B;
     font-size: 4.5vw;
     line-height: 5.8vw;
-    line-break: anywhere;
+    background: #fff;
 }
 
 .home-page .home-left-1 h1 span{
